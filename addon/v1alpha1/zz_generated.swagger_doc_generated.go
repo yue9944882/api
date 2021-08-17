@@ -89,7 +89,7 @@ func (ManagedClusterAddOnList) SwaggerDoc() map[string]string {
 
 var map_ManagedClusterAddOnSpec = map[string]string{
 	"":                 "ManagedClusterAddOnSpec defines the install configuration of an addon agent on managed cluster.",
-	"installNamespace": "installNamespace is the namespace on the managed cluster to install the addon agent. If it is not set, open-cluster-management-agent-addon namespace is used to install the addon agent.",
+	"installNamespace": "installNamespace is the namespace on the managed cluster to install the addon agent. If it is not set, \"open-cluster-management-agent-addon\" namespace is used to install the addon agent.",
 }
 
 func (ManagedClusterAddOnSpec) SwaggerDoc() map[string]string {
